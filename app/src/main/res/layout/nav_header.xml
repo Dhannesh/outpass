@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/colorAccent"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/sPic"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/nav_uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        tools:text="Full Name" />
+
+    <TextView
+        android:id="@+id/nav_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room No" />
+</LinearLayout>
